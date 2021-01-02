@@ -1,7 +1,7 @@
 def greet_characters(array)
   
- greet_characters.each do |array|
-   puts "Hello #{array.capitalize}"
+ greet_characters.each do |greet_characters|
+   puts "Hello #{greet_characters.capitalize}!"
 end
 
 def list_dwarves(array)
