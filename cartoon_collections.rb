@@ -14,5 +14,5 @@ end
 
 
 %w(array).each_with_index { |item, index|
-  hash[item] = index
+  array[item] = index
 }
