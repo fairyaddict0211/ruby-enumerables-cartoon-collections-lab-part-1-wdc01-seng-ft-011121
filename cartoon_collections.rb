@@ -12,3 +12,7 @@ def list_dwarves(array)
 end
 
 
+
+%w(cat dog wombat).each_with_index { |item, index|
+  hash[item] = index
+}
