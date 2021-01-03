@@ -13,6 +13,3 @@ end
 
 
 
-%w(array).each_with_index { |item, index|
-  array[item] = index
-}
